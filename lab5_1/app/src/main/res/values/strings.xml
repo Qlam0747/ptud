@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lab5_1</string>
+    <string name="start">Start</string>
+    <string name="returned_by_bg_thread">Trả về bởi luồng nền:\n\n</string>
+    <string name="done_background_thread_has_been_stopped">Luồng nền đã được dừng</string>
+    <string name="done">Xong</string>
+    <string name="working">Đang làm việc...</string>
+    <string name="global_value_seen">\n global value seen by all thread </string>
+</resources>
