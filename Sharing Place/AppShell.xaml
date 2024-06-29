@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Sharing_Place.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Sharing_Place.Views"
+    Shell.FlyoutBehavior="Flyout">
+    <FlyoutItem Title="Menu" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent
+        Title="Infomation"
+        ContentTemplate="{DataTemplate local:PostMenu}"
+        Route="PostMenu" />
+        <ShellContent
+        Title="Setting"
+        ContentTemplate="{DataTemplate local:PostMenu}"
+        Route="PostMenu" />
+    </FlyoutItem>
+    <TabBar>
+        <ShellContent
+        Title="Posts"
+        ContentTemplate="{DataTemplate local:PostMenu}"
+        Route="PostMenu" />
+        <ShellContent
+        Title="Chat"
+        ContentTemplate="{DataTemplate local:PostMenu}"
+        Route="PostMenu" />
+        <ShellContent
+        Title="Room"
+        ContentTemplate="{DataTemplate local:PostMenu}"
+        Route="PostMenu" />
+    </TabBar>
+</Shell>

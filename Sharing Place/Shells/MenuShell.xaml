@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:Sharing_Place.Views"
+       x:Class="Sharing_Place.Shells.MenuShell" 
+       Shell.FlyoutBehavior="Flyout"
+       Shell.BackgroundColor="Black"
+       Shell.TitleColor="White"
+       Shell.TabBarTitleColor="#27D276">
+    <Shell.Resources>
+        <Style TargetType="TabBar">
+            <Setter Property="Shell.TabBarTitleColor"
+                Value="#27D276" />
+            <Setter Property="Shell.TabBarUnselectedColor"
+           Value="Black" />
+        </Style>
+    </Shell.Resources>
+
+    <Shell.FlyoutHeader>
+        <VerticalStackLayout BackgroundColor="#27D276" Padding="0,20,0,20">
+            <Label Text="Sharing Place" FontSize="Large" FontAttributes="Bold" TextColor="White" HorizontalTextAlignment="Center" HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+    </Shell.FlyoutHeader>
+    <Shell.FlyoutFooter>
+        <VerticalStackLayout>
+            <Label Text="Created by Group 4" HorizontalTextAlignment="Center" HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+    </Shell.FlyoutFooter>
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <Grid ColumnDefinitions=".3*,.7*" RowDefinitions="*, *, *, *">
+                <HorizontalStackLayout Margin="10">
+                    <Label Text="{Binding Title}" FontSize="Medium"/>
+                </HorizontalStackLayout>
+            </Grid>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+
+    <FlyoutItem  Title="Home">
+        <Tab Title="Posts" Route="PostMenu" >
+            <ShellContent ContentTemplate="{DataTemplate local:PostMenu}"/>
+        </Tab>
+        <Tab Title="Rooms" Route="ListRoom" >
+            <ShellContent ContentTemplate="{DataTemplate local:ListRoom}"/>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Chatting">
+        <Tab Title="Messages" Route="ListMessage" >
+            <ShellContent ContentTemplate="{DataTemplate local:ListMessage}"/>
+        </Tab>
+        <Tab Title="Groups" Route="ListMessage">
+            <ShellContent ContentTemplate="{DataTemplate local:ListMessage}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Friends">
+        <ShellContent
+        ContentTemplate="{DataTemplate local:ListFriend}"
+        Route="ListFriend" />
+    </FlyoutItem>
+    <FlyoutItem Title="Account and Setting">
+        <Tab Title="Account" Route="SettingInfo">
+            <ShellContent ContentTemplate="{DataTemplate local:SettingInfo}" />
+        </Tab>
+        <Tab Title="Settings" Route="SettingInfo">
+            <ShellContent ContentTemplate="{DataTemplate local:SettingInfo}" />
+        </Tab>
+    </FlyoutItem>
+    <!--TabBar>
+        <ShellContent
+        Title="Posts"
+        ContentTemplate="{DataTemplate local:PostMenu}"
+        Route="PostMenu" />
+        <ShellContent
+        Title="Chat"
+        ContentTemplate="{DataTemplate local:Message}"
+        Route="Message" />
+        <ShellContent
+        Title="Room"
+        ContentTemplate="{DataTemplate local:PostMenu}"
+        Route="PostMenu" />
+    </TabBar-->
+</Shell>

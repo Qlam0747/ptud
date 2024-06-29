@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sharing_Place.Views.ListFriend"
+             Title="Friends">
+    <ScrollView>
+        <VerticalStackLayout Spacing="10">
+            <StackLayout Orientation="Horizontal" BackgroundColor="#27D276" Spacing="10"
+                         Padding="10">
+                <Image Source="back.png"
+                       WidthRequest="20" HeightRequest="20"
+                       HorizontalOptions="Start"/>
+                <Label Text="List Friends"
+                       HorizontalOptions="CenterAndExpand"
+                       FontSize="Small"/>
+            </StackLayout>
+            <VerticalStackLayout Padding="10" Spacing="5">
+                <SearchBar Placeholder="Search..." TextChanged="OnSearchBarTextChanged"/>
+                <Label Text="{Binding FriendsCount, StringFormat='{0}Friends'}"
+                       FontSize="Micro"
+                       HorizontalOptions="StartAndExpand"/>
+                <ListView x:Name="FriendsListView" ItemsSource="{Binding Friends}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal" Padding="10" Spacing="10">
+                                    <Image Source="{Binding ImgAvt}"
+                                           WidthRequest="50"
+                                           HeightRequest="50"
+                                           HorizontalOptions="Start"/>
+                                    <VerticalStackLayout Padding="10" Spacing="10">
+                                        <Label Text="{Binding Name}"
+                                               FontSize="Micro"
+                                               HorizontalOptions="StartAndExpand"/>
+                                        <Label Text="{Binding CommonFriendsCount, StringFormat='{0} Common Friends'}"
+                                               FontSize="Micro"
+                                               HorizontalOptions="StartAndExpand"/>
+                                    </VerticalStackLayout>
+                                    <Button Text="Message"
+                                            BackgroundColor="#27D276"
+                                            WidthRequest="80"
+                                            HeightRequest="20"
+                                            TextColor="White"
+                                            HorizontalOptions="EndAndExpand"
+                                            Clicked="ButtonMessage"/>
+                                    <Button Text="Delete"
+                                            BackgroundColor="#27D276"
+                                            WidthRequest="80"
+                                            HeightRequest="20"
+                                            TextColor="White"
+                                            HorizontalOptions="EndAndExpand"
+                                            Clicked="ButtonDelete"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

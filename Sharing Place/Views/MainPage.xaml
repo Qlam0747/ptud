@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Sharing_Place.Views"
+             x:Class="Sharing_Place.Views.MainPage"
+             Title="Main Page">
+    
+    <ScrollView Margin="10">
+        <StackLayout>
+            <Button Text="Add Task" Command="{Binding AddSharing_PlaceCommand}" />
+
+            <CollectionView ItemsSource="{Binding TodoItems}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal">
+                            <CheckBox IsChecked="{Binding IsCompleted}">
+                                <CheckBox.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type local:MainPage}}, Path=BindingContext.ToggleCompletionCommand}"
+                                    CommandParameter="{Binding .}">
+                                    </TapGestureRecognizer>
+                                </CheckBox.GestureRecognizers>
+                            </CheckBox>
+
+                            <Label Text="{Binding Title}"
+                               VerticalOptions="Center"
+                               FontSize="18" />
+                            
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
+    
+   

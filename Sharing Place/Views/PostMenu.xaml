@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sharing_Place.Views.PostMenu"
+             Title="Posts">
+    <Grid RowDefinitions=".15*, .85*">
+        <Grid VerticalOptions="Fill" HorizontalOptions="Fill" Padding="5" BackgroundColor="#27D276">
+            <HorizontalStackLayout VerticalOptions="Start" HorizontalOptions="Center" >
+                <Image Source="logo.png"
+                   WidthRequest="50" HeightRequest="50"
+                   HorizontalOptions="StartAndExpand"/>
+                <Button
+                    Text="New posts" 
+                    FontSize="Medium" 
+                    FontAttributes="Bold" 
+                    TextColor="Black" 
+                    BackgroundColor="White" Margin="10"/>
+            </HorizontalStackLayout>
+        </Grid>
+        <Grid Grid.Row="1">
+            <RoundRectangle Margin="-5,-30,-5,-2" 
+                            CornerRadius="40,40,0,0"
+                            Fill="White"/>
+            <VerticalStackLayout Padding="3" Spacing="5">
+                <Frame CornerRadius="10" 
+                       HasShadow="True"
+                       BorderColor="#27D276"
+                       Margin="10,0,10,0">
+                    <VerticalStackLayout>
+                        <HorizontalStackLayout HorizontalOptions="Fill">
+                            <Image Source="logo.png" 
+                               WidthRequest="50" HeightRequest="50"
+                               HorizontalOptions="StartAndExpand"/>
+                            <VerticalStackLayout Margin="10,0,0,0">
+                                <Label Text="User" FontSize="Medium" FontAttributes="Bold"/>
+                                <Label Text="99 mins" FontSize="Small" FontAttributes="Italic"
+                               HorizontalTextAlignment="End" HorizontalOptions="End"/>
+                            </VerticalStackLayout>
+                        </HorizontalStackLayout>
+                        <VerticalStackLayout>
+                            <Label Text="Body post"
+                               FontSize="Small"/>
+                        </VerticalStackLayout>
+                        <Grid ColumnDefinitions="*,*,*" HorizontalOptions="Fill" Margin="0,5,0,0" ColumnSpacing="5">
+                            <StackLayout>
+                                <Button Text="Emotes" FontSize="Small" FontAttributes="Bold" 
+                                        BackgroundColor="#27D276" TextColor="White"/>
+                            </StackLayout>
+                            <StackLayout Grid.Column="1">
+                                <Button Text="Comments" FontSize="Small" FontAttributes="Bold" 
+                                        BackgroundColor="#27D276" TextColor="White"/>
+                            </StackLayout>
+                            <StackLayout Grid.Column="2">
+                                <Button Text="Share" FontSize="Small" FontAttributes="Bold" 
+                                        BackgroundColor="#27D276" TextColor="White"/>
+                            </StackLayout>
+                        </Grid>
+                    </VerticalStackLayout>
+                </Frame>
+                <ListView>
+
+                </ListView>
+            </VerticalStackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

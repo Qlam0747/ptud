@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sharing_Place.Friends"
+             Title="Friends">
+    <ScrollView>
+        <StackLayout
+            Padding="30"
+            Spacing="10">
+            <StackLayout Orientation="Horizontal" Padding="10" Spacing="10"
+                         BackgroundColor="LimeGreen">
+                <Image Source="Resources\Images\back.png"
+WidthRequest="20" HeightRequest="20"
+                    HorizontalOptions="Start"/>
+                <Label 
+    Text="Follow and Add Friends"
+    FontSize="Medium"
+    FontAttributes="Bold"
+    HorizontalOptions="CenterAndExpand"/>
+                
+            </StackLayout>
+        
+            <SearchBar Placeholder="Search"
+                       />
+
+            <Label Text="List Friends" FontSize="Small"
+       FontAttributes="None"
+       HorizontalOptions="Start"></Label>
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Image
+                    Source="Resources\Images\user4.png"
+                           WidthRequest="50"
+                           HeightRequest="50"
+                           />
+                <VerticalStackLayout Padding="10" Spacing="10">
+                    <Label
+           Text="Name"
+           FontSize="Micro"
+           HorizontalOptions="StartAndExpand"
+                        />
+                    <Label Text="10 Common Friends"
+                           FontSize="Micro"
+                           HorizontalOptions="StartAndExpand"/>
+                </VerticalStackLayout>
+                
+                <Button
+    Text="Follow"
+    BackgroundColor="LimeGreen"
+    HorizontalOptions="EndAndExpand"
+    Command="{Binding FollowCommand}"
+                    HeightRequest="20"
+                    />
+                <Button
+                           Text="Add Friend"
+                           BackgroundColor="LimeGreen"
+                           HorizontalOptions="End"
+                           Command="{Binding AddFriendCommand}"
+                    HeightRequest="20"/>
+                
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+    
+</ContentPage>

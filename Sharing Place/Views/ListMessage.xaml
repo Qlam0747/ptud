@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Sharing_Place.Views"
+             x:Class="Sharing_Place.Views.ListMessage"
+             Title="Messages">
+
+    <ContentPage.Resources>
+        <DataTemplate x:Key="MessageTemplate">
+            <ViewCell>
+                <HorizontalStackLayout Padding="10" Spacing="10">
+                    <Image Source="{Binding ImgAvt}" 
+                           WidthRequest="50" HeightRequest="50"
+                           HorizontalOptions="Start"/>
+                    <VerticalStackLayout HorizontalOptions="StartAndExpand">
+                        <Label Text="{Binding Name}" 
+                               FontSize="Small" 
+                               FontAttributes="Bold"/>
+                        <Label Text="{Binding MessageText}" 
+                               FontSize="Small"/>
+                    </VerticalStackLayout>
+                    <Button Text="Delete" 
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type local:ListMessage}}, Path=BindingContext.DeleteMessageCommand}" 
+                            CommandParameter="{Binding .}" 
+                            BackgroundColor="Red" 
+                            TextColor="White"/>
+                </HorizontalStackLayout>
+            </ViewCell>
+        </DataTemplate>
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions=".10*, .90*">
+        <Grid Grid.Row="0">
+            <VerticalStackLayout HorizontalOptions="Center" Margin="5">
+                <SearchBar Placeholder="Search" TextChanged="OnSearchBarTextChanged"/>
+                <ListView x:Name="UserSuggestionListView" 
+                          ItemsSource="{Binding UserSuggestions}" 
+                          ItemTemplate="{StaticResource UserSuggestionTemplate}" 
+                          IsVisible="False" 
+                          ItemSelected="OnUserSelected">
+                </ListView>
+            </VerticalStackLayout>
+        </Grid>
+        <Grid Grid.Row="1" RowDefinitions=".1*, .9*">
+            <VerticalStackLayout HorizontalOptions="Center">
+                <Label Text="List Messages" 
+                       FontSize="Medium" 
+                       HorizontalTextAlignment="Center"/>
+            </VerticalStackLayout>
+            <Grid Grid.Row="1">
+                <VerticalStackLayout Padding="3" Spacing="5">
+                    <ListView x:Name="MessagesListView" 
+                              ItemsSource="{Binding Messages}" 
+                              ItemTemplate="{StaticResource MessageTemplate}">
+                    </ListView>
+                </VerticalStackLayout>
+            </Grid>
+        </Grid>
+    </Grid>
+</ContentPage>

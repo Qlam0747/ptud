@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Sharing_Place.Resources.Localization"
+             x:Class="Sharing_Place.Views.SignIn"
+             Title="Sign In"
+             NavigationPage.HasNavigationBar="False">
+    <Grid RowDefinitions=".25*,.45*,.30*">
+        <ActivityIndicator x:Name="loadingIndicator" IsRunning="False" />
+        <Grid BackgroundColor="#27D276"/>
+        <Grid Grid.Row="1">
+            <RoundRectangle Margin="-5,-30,-5,-2" 
+                            CornerRadius="30,30,0,0"
+                            Fill="White"/>
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="10,0,10,10">
+                <Label  
+                    HorizontalOptions="CenterAndExpand" 
+                    Text="{x:Static local:Strings.sign_in}"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    TextColor="black"
+                    Margin="0,0,0,10"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                    <Label Text="{x:Static local:Strings.username}" FontSize="Medium" VerticalOptions="Center" Margin="0,5,5,5"/>
+                    <Entry x:Name="txtUser" Placeholder="Email or Username" Text="" FontSize="Medium" VerticalOptions="Center" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" Margin="5,5,0,5"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                    <Label Text="{x:Static local:Strings.password}" FontSize="Medium" VerticalOptions="Center" Margin="0,5,5,5"/>
+                    <Entry x:Name="txtPassword" IsPassword="True" Placeholder="Password" Text="" FontSize="Medium" HorizontalTextAlignment="Center"  VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="5,5,0,5"/>
+                </StackLayout>
+                <Button Text="{x:Static local:Strings.sign_in_btn}" BackgroundColor="#27D276" FontSize="Medium" Clicked="OnSignInClicked"/>
+                <Label Text="{x:Static local:Strings.sign_in_forget}"
+                       TextColor="Black" 
+                       FontSize="Medium" 
+                       HorizontalTextAlignment="Center"
+                       HorizontalOptions="CenterAndExpand"
+                       Margin="10,10,10,0">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnForgetClicked"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+        </Grid>
+        <Grid Grid.Row="2" VerticalOptions="CenterAndExpand" RowDefinitions=".4*, .6*">
+            <!--Grid ColumnDefinitions=".5*,.5*">
+                <Label Text="Forget password ?" 
+                       TextColor="Black" 
+                       FontSize="Medium" 
+                       HorizontalTextAlignment="Center"
+                       HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+                       Margin="5,0,10,15">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnForgetClicked"/>
+                    </Label.GestureRecognizers>
+                </Label>
+                <Label Grid.Column="1"
+                       x:Name="lbCreate"
+                       Text="Create a new account." 
+                       TextColor="Black" 
+                       FontSize="Medium" 
+                       HorizontalTextAlignment="Center"
+                       HorizontalOptions="Center" VerticalOptions="Center"
+                       Margin="10,0,5,15">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnRegisterClicked"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Grid-->
+            <Grid>
+                <StackLayout  VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" Margin="20,10,20,0">
+                    <Line Stroke="Black" X2="{Binding Width, Source={RelativeSource Self}}" HorizontalOptions="Fill" StrokeThickness="2"/>
+                    <StackLayout  TranslationY="-15" VerticalOptions="StartAndExpand" HorizontalOptions="Center" >
+                        <Label Text="or continue with" BackgroundColor="White" TextColor="Black" FontSize="Medium" VerticalTextAlignment="Center" Padding="20,0,20,0"/>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+            <Grid Grid.Row="1" ColumnDefinitions=".5*,.5*" HorizontalOptions="Center">
+                <Label Text="LogoFB" Margin="5"/>
+                <Label Grid.Column="1" Text="LogoGmail" Margin="5"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sharing_Place.SettingMessage"
+             Title="SettingMessage">
+    <ScrollView Padding="10">
+        <VerticalStackLayout>
+            <Image Source="Resources\Images\back.png"
+WidthRequest="20" HeightRequest="20"
+                    HorizontalOptions="Start"/>
+            <Image Source="Resources\Images\user4.png"
+WidthRequest="70" HeightRequest="70"
+                    HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Name"
+                   FontSize="Small" 
+                   FontAttributes="Bold"
+                   HorizontalOptions="CenterAndExpand"/>
+            <StackLayout Orientation="Horizontal" Padding="10" Spacing="10">
+                <StackLayout Orientation="Vertical" Padding="10" Spacing="10"
+                             HorizontalOptions="CenterAndExpand">
+                    <Image Source="Resources\Images\user1.png"
+WidthRequest="30" HeightRequest="30"
+                    HorizontalOptions="Center"/>
+                    <Label Text="Profile"/>
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Padding="10" Spacing="10"
+                             HorizontalOptions="CenterAndExpand">
+                    <Image Source="Resources\Images\notificationbell.png"
+WidthRequest="30" HeightRequest="30"
+                    HorizontalOptions="CenterAndExpand"/>
+                    <Label Text="Mute" />
+                </StackLayout>
+            </StackLayout>
+            <Label Text="Actions"
+                   FontSize="Small"
+                   FontAttributes="Bold"
+                   HorizontalOptions="StartAndExpand"/>
+            <StackLayout Orientation="Horizontal" Padding="10"
+                         Spacing="10">
+                <Image Source="Resources\Images\image2.png"
+                       WidthRequest="20" HeightRequest="20"
+                       HorizontalOptions="Start"/>
+                <Label Text="View Media, File and Links"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal" Padding="10"
+             Spacing="10">
+                <Image Source="Resources\Images\thumbtacks.png"
+           WidthRequest="20" HeightRequest="20"
+           HorizontalOptions="Start"/>
+                <Label Text="Pinned messages"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="10"
+  Spacing="10">
+                <Image Source="Resources\Images\interface.png"
+WidthRequest="20" HeightRequest="20"
+HorizontalOptions="Start"/>
+                <Label Text="Search in conversation"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="10"
+  Spacing="10">
+                <Image Source="Resources\Images\bell.png"
+WidthRequest="20" HeightRequest="20"
+HorizontalOptions="Start"/>
+                <Label Text="Notifications and sounds"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="10"
+  Spacing="10">
+                <Image Source="Resources\Images\share.png"
+WidthRequest="20" HeightRequest="20"
+HorizontalOptions="Start"/>
+                <Label Text="Share contact"/>
+            </StackLayout>
+            <Label Text="Privacy and support"
+                   FontSize="Small"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Start"/>
+            <StackLayout Orientation="Horizontal" Padding="10"
+  Spacing="10">
+                <Image Source="Resources\Images\block.png"
+WidthRequest="20" HeightRequest="20"
+HorizontalOptions="Start"/>
+                <Label Text="Block"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="10"
+  Spacing="10">
+                <Image Source="Resources\Images\danger.png"
+WidthRequest="20" HeightRequest="20"
+HorizontalOptions="Start"/>
+                <Label Text="Report"/>
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

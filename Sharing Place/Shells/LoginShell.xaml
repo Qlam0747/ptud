@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:Sharing_Place.Views"
+       x:Class="Sharing_Place.Shells.LoginShell" 
+       Shell.NavBarIsVisible="False">
+    <Shell.Resources>
+        <Style TargetType="TabBar">
+            <Setter Property="Shell.TabBarTitleColor"
+                Value="#27D276" />
+            <Setter Property="Shell.TabBarUnselectedColor"
+           Value="Black" />
+        </Style>
+    </Shell.Resources>
+    <TabBar>
+        <ShellContent 
+            x:Name="signin"
+            Title="SIGN IN"
+            Icon="appicon.svg"
+            ContentTemplate="{DataTemplate local:SignIn}"
+            Route="SignIn"/>
+        <ShellContent 
+            x:Name="signup"
+            Title="SIGN UP"
+            Icon="appicon.svg"
+            ContentTemplate="{DataTemplate local:Register}"
+            Route="Register" />
+    </TabBar>
+</Shell>

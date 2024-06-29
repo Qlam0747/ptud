@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:Sharing_Place.ViewModels"
+             xmlns:local="clr-namespace:Sharing_Place.Resources.Localization"
+             x:Class="Sharing_Place.Views.ListRoom"
+             Title="{x:Static local:Strings.rooms_tittle}">
+    <ContentPage.Resources>
+        <DataTemplate x:Key="RoomTemplate">
+            <ViewCell>
+                <HorizontalStackLayout>
+                    <Image Source="{Binding ImgAvt}" 
+                                WidthRequest="50" HeightRequest="50"
+                                HorizontalOptions="StartAndExpand"/>
+                    <VerticalStackLayout>
+                        <Label Text="{Binding Name}" FontSize="Small" FontAttributes="Bold" HorizontalOptions="StartAndExpand"/>
+                        <Label Text="{Binding Message}" FontSize="Small" HorizontalOptions="StartAndExpand"/>
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </ViewCell>
+        </DataTemplate>
+    </ContentPage.Resources>
+    <Grid RowDefinitions=".10*, .90*">
+        <Grid Grid.Row="0">
+            <VerticalStackLayout HorizontalOptions="Center">
+                <Label Text="{x:Static local:Strings.rooms_content}" FontSize="Medium" HorizontalTextAlignment="Center"/>
+            </VerticalStackLayout>
+        </Grid>
+        <Grid Grid.Row="1" RowDefinitions=".1*, .9*">
+            <Grid Grid.Row="1">
+                <VerticalStackLayout Grid.Row="1" Padding="3" Spacing="5">
+                    <ListView ItemsSource="{Binding RoomModel}"
+                              ItemTemplate="{StaticResource RoomTemplate}">
+                    </ListView>
+                </VerticalStackLayout>
+            </Grid>
+        </Grid>
+    </Grid>
+</ContentPage>

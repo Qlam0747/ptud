@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:essentials="http://schemas.microsoft.com/dotnet/maui/essentials/2022/04"
+             x:Class="Sharing_Place.Views.SettingInfo"
+             Title="Infomation">
+    <ScrollView>
+        <VerticalStackLayout Padding="10" Spacing="10">
+            <!--StackLayout Orientation="Horizontal" Background="ForestGreen"
+                                   Padding="10" Spacing="10">
+                <Image Source="Resources\Images\back.png"
+                        WidthRequest="20" HeightRequest="20"
+                    HorizontalOptions="Start"/>
+                <Label Text="Infomation"
+       FontSize="Medium"
+       FontAttributes="Bold"
+       HorizontalOptions="CenterAndExpand"/>
+            </StackLayout-->
+            
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Avatar"
+                FontSize="Small" FontAttributes="Bold"
+                HorizontalOptions="Start"/>
+                
+                <Label Text="Edit " TextColor="Blue"
+                        FontSize="Micro"
+                       FontAttributes="Bold"
+                        HorizontalOptions="EndAndExpand"/>
+                
+            </StackLayout>
+            <Image Source="logo.jpg"
+                   WidthRequest="70" HeightRequest="70"
+                   HorizontalOptions="CenterAndExpand"/>
+            <Label Text="Infomation"
+                   FontSize="Small" FontAttributes="Bold"
+                   HorizontalOptions="Start"/>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Resources\Images\user.png"
+                        WidthRequest="20" HeightRequest="20"
+                        HorizontalOptions="End"/>
+                <Label Text=" Username: "
+                       FontSize="Micro"
+                       HorizontalOptions="Start"/>
+                <Label Text=" Name "
+       FontSize="Micro"
+       HorizontalOptions="Start"/>
+                <Image Source="Resources\Images\edittext.png"
+                       WidthRequest="20" HeightRequest="20"
+                       HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Resources\Images\user.png"
+WidthRequest="20" HeightRequest="20"
+HorizontalOptions="End"/>
+                <Label Text=" Name: "
+                FontSize="Micro"
+                HorizontalOptions="Start"/>
+                <Label Text=" Name "
+FontSize="Micro"
+HorizontalOptions="Start"/>
+                <Image Source="Resources\Images\edittext.png"
+                WidthRequest="20" HeightRequest="20"
+                HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Resources\Images\birthdaycake.png"
+WidthRequest="20" HeightRequest="20"
+HorizontalOptions="End"/>
+                <Label Text=" Date of Birth: "
+                FontSize="Micro"
+                HorizontalOptions="Start"/>
+                <Label Text=" 24/08/2004 "
+FontSize="Micro"
+HorizontalOptions="Start"/>
+                <Image Source="Resources\Images\edittext.png"
+                WidthRequest="20" HeightRequest="20"
+                HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Resources\Images\gender.png"
+WidthRequest="20" HeightRequest="20"
+HorizontalOptions="End"/>
+                <Label Text=" Gender: "
+                FontSize="Micro"
+                HorizontalOptions="Start"/>
+                <Label Text=" Male "
+FontSize="Micro"
+HorizontalOptions="Start"/>
+                <Image Source="Resources\Images\edittext.png"
+                WidthRequest="20" HeightRequest="20"
+                HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Resources\Images\telephone1.png"
+WidthRequest="20" HeightRequest="20"
+HorizontalOptions="End"/>
+                <Label Text=" Phone Number: "
+                FontSize="Micro"
+                HorizontalOptions="Start"/>
+                <Label Text=" 0735462728 "
+FontSize="Micro"
+HorizontalOptions="Start"/>
+                <Image Source="Resources\Images\edittext.png"
+                WidthRequest="20" HeightRequest="20"
+                HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Resources\Images\email.png"
+WidthRequest="20" HeightRequest="20"
+HorizontalOptions="End"/>
+                
+                <Label Text=" Email: "
+                FontSize="Micro"
+                HorizontalOptions="Start"/>
+                <Label Text=" abc@gmail.com "
+FontSize="Micro"
+HorizontalOptions="Start"/>
+                <Image Source="Resources\Images\edittext.png"
+                WidthRequest="20" HeightRequest="20"
+                HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+
+            <Label Text="Detail"
+FontSize="Small" FontAttributes="Bold"
+HorizontalOptions="Start"/>
+
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Resources\Images\Puzzle.png"
+WidthRequest="20" HeightRequest="20"
+HorizontalOptions="End"/>
+                <Label Text=" Hobbies: "
+                FontSize="Micro"
+                HorizontalOptions="Start"/>
+                <Label Text=" ...  "
+FontSize="Micro"
+HorizontalOptions="Start"/>
+                <Image Source="Resources\Images\edittext.png"
+                WidthRequest="20" HeightRequest="20"
+                HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Resources\Images\home.png"
+WidthRequest="20" HeightRequest="20"
+HorizontalOptions="End"/>
+                <Label Text=" Place: "
+                FontSize="Micro"
+                HorizontalOptions="Start"/>
+                <Label Text=" HCM City  "
+FontSize="Micro"
+HorizontalOptions="Start"/>
+                <Image Source="Resources\Images\edittext.png"
+                WidthRequest="20" HeightRequest="20"
+                HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Resources\Images\briefcase.png"
+WidthRequest="20" HeightRequest="20"
+HorizontalOptions="End"/>
+                <Label Text=" Workplace: "
+                FontSize="Micro"
+                HorizontalOptions="Start"/>
+                <Label Text=" UIT  "
+FontSize="Micro"
+HorizontalOptions="Start"/>
+                <Image Source="Resources\Images\edittext.png"
+                WidthRequest="20" HeightRequest="20"
+                HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Resources\Images\graduationcap.png"
+WidthRequest="20" HeightRequest="20"
+HorizontalOptions="End"/>
+                <Label Text=" Education: "
+                FontSize="Micro"
+                HorizontalOptions="Start"/>
+                <Label Text=" University "
+FontSize="Micro"
+HorizontalOptions="Start"/>
+                <Image Source="Resources\Images\edittext.png"
+                WidthRequest="20" HeightRequest="20"
+                HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Resources\Images\relationships.png"
+WidthRequest="20" HeightRequest="20"
+HorizontalOptions="End"/>
+                <Label Text=" Relationship: "
+                FontSize="Micro"
+                HorizontalOptions="Start"/>
+                <Label Text=" Single "
+FontSize="Micro"
+HorizontalOptions="Start"/>
+                <Image Source="Resources\Images\edittext.png"
+                WidthRequest="20" HeightRequest="20"
+                HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="My biography"
+FontSize="Small" FontAttributes="Bold"
+HorizontalOptions="Start"/>
+                
+                <Label Text="Edit " TextColor="Blue"
+FontSize="Micro"
+HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+            
+            <Label Text="Decrible Yourself..."
+FontSize="Small" 
+HorizontalOptions="CenterAndExpand"/>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Link"
+FontSize="Small" FontAttributes="Bold"
+HorizontalOptions="Start"/>
+               
+                <Label Text="Edit " TextColor="Blue"
+FontSize="Micro"
+HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+            <Label Text=" www.facebook.com/abc " 
+FontSize="Micro"
+HorizontalOptions="StartAndExpand"/>
+        </VerticalStackLayout>
+    </ScrollView>
+   
+</ContentPage>

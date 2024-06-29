@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sharing_Place.CommentPage"
+             Title="Comments">
+
+    <VerticalStackLayout Padding="10" Spacing="10">
+        <!-- Comments Section -->
+        <ScrollView>
+            <VerticalStackLayout x:Name="commentsList" Spacing="10">
+                <!-- Sample Comments -->
+                <Frame CornerRadius="10" HasShadow="True" BackgroundColor="White" Padding="10" Margin="0">
+                    <VerticalStackLayout>
+                        <HorizontalStackLayout Spacing="10">
+                            <Image Source="profile-pic.jpg"
+                                   WidthRequest="40" HeightRequest="40"
+                                   />
+                            <VerticalStackLayout>
+                                <Label Text="Jane Doe" FontAttributes="Bold" FontSize="Medium"/>
+                                <Label Text="This is a sample comment." FontSize="Small"/>
+                            </VerticalStackLayout>
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Add Comment Section -->
+        <Grid ColumnDefinitions="*,Auto" Padding="5">
+            <Entry x:Name="commentEntry" Placeholder="Write a comment..." />
+            <Button Text="Post" Clicked="PostComment_Clicked" />
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

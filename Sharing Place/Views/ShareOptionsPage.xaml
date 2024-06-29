@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sharing_Place.Views.ShareOptionsPage"
+             Title="Share Options">
+
+    <Grid ColumnDefinitions="*,*" HorizontalOptions="Fill" Margin="0,5,0,0" ColumnSpacing="5">
+        <StackLayout>
+            <Button Text="Chia sẻ lên bảng Feed" FontSize="Small" FontAttributes="Bold" 
+                    BackgroundColor="#27D276" TextColor="White"/>
+        </StackLayout>
+        <StackLayout Grid.Column="1">
+            <Button Text="Chia sẻ lên tin của bạn" FontSize="Small" FontAttributes="Bold" 
+                    BackgroundColor="#27D276" TextColor="White"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

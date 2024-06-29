@@ -1,0 +1,138 @@
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\SP Server.exe
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\SP Server.deps.json
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\SP Server.runtimeconfig.json
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\SP Server.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\SP Server.pdb
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.csproj.AssemblyReference.cache
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP_Server.ListAccount.resources
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP_Server.LogMenu.resources
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP_Server.MenuServer.resources
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.csproj.GenerateResource.cache
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.AssemblyInfoInputs.cache
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.AssemblyInfo.cs
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.csproj.CoreCompileInputs.cache
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.sourcelink.json
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.csproj.Up2Date
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\refint\SP Server.dll
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.pdb
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.genruntimeconfig.cache
+D:\Projects\GitHub\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\ref\SP Server.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\SP Server.exe
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\SP Server.deps.json
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\SP Server.runtimeconfig.json
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\SP Server.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\SP Server.pdb
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\App\Sharing-Place-Project\SP Server\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+D:\App\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.csproj.AssemblyReference.cache
+D:\App\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP_Server.ListAccount.resources
+D:\App\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP_Server.LogMenu.resources
+D:\App\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP_Server.MenuServer.resources
+D:\App\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.csproj.GenerateResource.cache
+D:\App\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\App\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.AssemblyInfoInputs.cache
+D:\App\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.AssemblyInfo.cs
+D:\App\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.csproj.CoreCompileInputs.cache
+D:\App\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.sourcelink.json
+D:\App\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.csproj.Up2Date
+D:\App\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.dll
+D:\App\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\refint\SP Server.dll
+D:\App\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.pdb
+D:\App\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\SP Server.genruntimeconfig.cache
+D:\App\Sharing-Place-Project\SP Server\obj\Debug\net8.0-windows\ref\SP Server.dll
